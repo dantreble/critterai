@@ -8,97 +8,97 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91db61587ad60c642a7d96d774381a70, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c4aa58087bdc204bbba5f05eb7e1a89, type: 3}
   m_Name: CAINavEditorSettings
   m_EditorClassIdentifier: 
   areaNames:
-  - 4e6f742057616c6b61626c65
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 3c556e646566696e65643e
-  - 5761746572
-  - 44656661756c74
+  - Not Walkable
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - Water
+  - Default
   flagNames:
-  - 44656661756c74
-  - 4a756d70
-  - 5377696d
-  - 426c6f636b6564
-  - 466c61672030783130
-  - 466c61672030783230
-  - 466c61672030783430
-  - 466c61672030783830
-  - 466c6167203078313030
-  - 466c6167203078323030
-  - 466c6167203078343030
-  - 466c6167203078383030
-  - 466c616720307831303030
-  - 466c616720307832303030
-  - 466c616720307834303030
-  - 466c616720307838303030
+  - Default
+  - Jump
+  - Swim
+  - Blocked
+  - Flag 0x10
+  - Flag 0x20
+  - Flag 0x40
+  - Flag 0x80
+  - Flag 0x100
+  - Flag 0x200
+  - Flag 0x400
+  - Flag 0x800
+  - Flag 0x1000
+  - Flag 0x2000
+  - Flag 0x4000
+  - Flag 0x8000
   avoidanceNames:
-  - 4c6f77
-  - 4d656469756d
-  - 476f6f64
-  - 48696768
-  - 5175616c6974792034
-  - 5175616c6974792035
-  - 5175616c6974792036
-  - 5175616c6974792037
+  - Low
+  - Medium
+  - Good
+  - High
+  - Quality 4
+  - Quality 5
+  - Quality 6
+  - Quality 7
