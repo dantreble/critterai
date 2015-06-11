@@ -237,5 +237,5 @@ FakesAssemblies/
 
 # Unity Files #
 ###############
-*.meta
-
+src/main/Library/*
+src/main/Temp/*
