@@ -82,7 +82,7 @@ public class AreaMarkerEditor
     /// <param name="type">The gizmo type.</param>
     protected static void DrawStandardGizmo(NMGenAreaMarker marker, GizmoType type)
     {
-        if (!NMGenAreaMarker.debugEnabled && (type & GizmoType.SelectedOrChild) == 0)
+        if (!NMGenAreaMarker.debugEnabled && (type & GizmoType.InSelectionHierarchy) == 0)
             return;
 
         Gizmos.color = ColorUtil.IntToColor(marker.Area, 0.6f);

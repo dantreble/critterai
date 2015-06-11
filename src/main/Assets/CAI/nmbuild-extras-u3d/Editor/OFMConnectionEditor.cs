@@ -105,24 +105,24 @@ public sealed class OFMConnectionEditor
     {
         OFMConnection targ = (OFMConnection)target;
 
-        Undo.SetSnapshotTarget(target, "Endpoint move.");
+        Undo.RecordObject(target, "Endpoint move.");
 
         targ.EndPoint = Handles.PositionHandle(targ.EndPoint, Quaternion.identity);
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            Undo.CreateSnapshot();
-            Undo.RegisterSnapshot();
-        }
+        //if (Input.GetMouseButtonDown(0))
+        //{
+        //    Undo.CreateSnapshot();
+        //    Undo.RegisterSnapshot();
+        //}
 
         if (GUI.changed)
             EditorUtility.SetDirty(targ);
     }
 
-    [DrawGizmo(GizmoType.NotSelected | GizmoType.SelectedOrChild | GizmoType.Pickable)]
+    [DrawGizmo(GizmoType.NotInSelectionHierarchy | GizmoType.InSelectionHierarchy | GizmoType.Pickable)]
     static void DrawGizmo(OFMConnection marker, GizmoType type)
     {
-        if (!NMGenComponent.debugEnabled && (type & GizmoType.SelectedOrChild) == 0)
+        if (!NMGenComponent.debugEnabled && (type & GizmoType.InSelectionHierarchy) == 0)
             return;
 
         Gizmos.color = ColorUtil.IntToColor(marker.Area, 0.6f);

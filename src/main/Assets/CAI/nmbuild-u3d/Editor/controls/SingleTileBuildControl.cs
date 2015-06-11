@@ -147,7 +147,7 @@ namespace org.critterai.nmbuild.u3d.editor
 
             ControlUtil.BeginButtonArea(Context.ButtonArea);
 
-            EditorGUIUtility.LookLikeControls(75);
+            EditorGUIUtility.labelWidth = 75f;
 
             bool guiEnabled = GUI.enabled;
 

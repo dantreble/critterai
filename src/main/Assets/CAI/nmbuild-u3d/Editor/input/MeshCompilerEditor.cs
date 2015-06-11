@@ -45,7 +45,7 @@ public sealed class MeshCompilerEditor
 
         EditorGUILayout.Separator();
 
-        EditorGUIUtility.LookLikeControls(120);
+        EditorGUIUtility.labelWidth = 120f;
 
         targ.colocationOption = (MeshColocationOption)
             EditorGUILayout.EnumPopup("Colocation priority", targ.colocationOption); 

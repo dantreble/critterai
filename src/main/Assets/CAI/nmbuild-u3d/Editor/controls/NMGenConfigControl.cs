@@ -176,7 +176,7 @@ namespace org.critterai.nmbuild.u3d.editor
 
             bool guiEnabled = GUI.enabled;
 
-            EditorGUIUtility.LookLikeControls(155);
+            EditorGUIUtility.labelWidth = 155f;
 
             float xz = config.XZCellSize;
             float y = config.YCellSize;
@@ -331,7 +331,7 @@ namespace org.critterai.nmbuild.u3d.editor
         {
             GUILayout.Label("Advanced Settings");
 
-            EditorGUIUtility.LookLikeControls(170);
+            EditorGUIUtility.labelWidth = 170f;
 
             float xz = config.XZCellSize;
 

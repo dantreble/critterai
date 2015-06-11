@@ -50,11 +50,11 @@ public sealed class TagSceneQueryEditor
 
         EditorGUILayout.Separator();
 
-        EditorGUIUtility.LookLikeControls(120);
+        EditorGUIUtility.labelWidth = 120f;
 
         targ.IncludeChildren = EditorGUILayout.Toggle("Include Children", targ.IncludeChildren);
 
-        EditorGUIUtility.LookLikeControls();
+        EditorGUIUtility.labelWidth = 0f;
 
         EditorGUILayout.Separator();
 

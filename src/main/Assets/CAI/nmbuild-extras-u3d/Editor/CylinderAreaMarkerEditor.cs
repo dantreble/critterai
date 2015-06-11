@@ -42,7 +42,7 @@ public sealed class CylinderAreaMarkerEditor
             EditorUtility.SetDirty(target);
     }
 
-    [DrawGizmo(GizmoType.NotSelected | GizmoType.SelectedOrChild | GizmoType.Pickable)]
+    [DrawGizmo(GizmoType.NotInSelectionHierarchy | GizmoType.InSelectionHierarchy | GizmoType.Pickable)]
     static void DrawGizmo(CylinderAreaMarker marker, GizmoType type)
     {
         DrawStandardGizmo(marker, type);

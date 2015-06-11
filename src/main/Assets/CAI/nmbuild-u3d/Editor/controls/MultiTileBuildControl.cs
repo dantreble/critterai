@@ -327,9 +327,9 @@ namespace org.critterai.nmbuild.u3d.editor
 
             GUI.enabled = guiEnabled && hasSelection;
 
-            EditorGUIUtility.LookLikeControls(100);
+            EditorGUIUtility.labelWidth = 100f;
             selection.ZoneSize = EditorGUILayout.IntField("Zone Size", selection.ZoneSize);
-            EditorGUIUtility.LookLikeControls();
+            EditorGUIUtility.labelWidth = 0f;
 
             GUI.enabled = guiEnabled;
 

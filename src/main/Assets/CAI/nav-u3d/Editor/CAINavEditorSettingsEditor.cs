@@ -154,7 +154,7 @@ public sealed class CAINavEditorSettingsEditor
     /// </summary>
     public override void OnInspectorGUI()
     {
-        EditorGUIUtility.LookLikeControls(80);
+        EditorGUIUtility.labelWidth = 80f;
 
         EditorGUILayout.Separator();
 

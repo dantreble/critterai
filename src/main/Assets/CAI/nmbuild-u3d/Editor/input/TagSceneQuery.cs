@@ -112,7 +112,7 @@ public sealed class TagSceneQuery
         List<T> result = new List<T>();
         foreach (GameObject go in mObjects)
         {
-            if (go == null || !go.active)
+            if (go == null || !go.activeInHierarchy)
                 continue;
 
             if (mIncludeChildren)

@@ -42,7 +42,7 @@ public sealed class BoxAreaMarkerEditor
             EditorUtility.SetDirty(target);
     }
 
-    [DrawGizmo(GizmoType.NotSelected | GizmoType.SelectedOrChild | GizmoType.Pickable)]
+    [DrawGizmo(GizmoType.NotInSelectionHierarchy | GizmoType.InSelectionHierarchy | GizmoType.Pickable)]
     static void DrawGizmo(BoxAreaMarker marker, GizmoType type)
     {
         DrawStandardGizmo(marker, type);

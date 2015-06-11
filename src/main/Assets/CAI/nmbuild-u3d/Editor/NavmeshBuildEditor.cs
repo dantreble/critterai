@@ -65,7 +65,7 @@ public sealed class NavmeshBuildEditor
     {
         NavmeshBuild targ = (NavmeshBuild)target;
 
-        EditorGUIUtility.LookLikeControls(100);
+        EditorGUIUtility.labelWidth = 100;
 
         OnGUIState(targ);
 
