@@ -6,7 +6,7 @@
 	ProjectGUID="{319D361B-147F-45AC-854E-50C06FCA3393}"
 	RootNamespace="org::critterai"
 	Keyword="Win32Proj"
-	TargetFrameworkVersion="196613"
+	TargetFrameworkVersion="0"
 	>
 	<Platforms>
 		<Platform
@@ -21,7 +21,6 @@
 			OutputDirectory="..\bin\$(ConfigurationName)"
 			IntermediateDirectory="obj\nav\$(ConfigurationName)"
 			ConfigurationType="2"
-			ManagedExtensions="1"
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
@@ -59,10 +58,8 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="$(NoInherit)"
-				LinkIncremental="1"
+				LinkIncremental="2"
 				GenerateDebugInformation="true"
-				AssemblyDebug="1"
 				SubSystem="2"
 				TargetMachine="1"
 			/>
@@ -93,7 +90,6 @@
 			OutputDirectory="..\bin\$(ConfigurationName)"
 			IntermediateDirectory="obj\nav\$(ConfigurationName)"
 			ConfigurationType="2"
-			ManagedExtensions="1"
 			WholeProgramOptimization="1"
 			>
 			<Tool
@@ -133,8 +129,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="$(NoInherit)"
-				LinkIncremental="1"
+				LinkIncremental="2"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				OptimizeReferences="2"
