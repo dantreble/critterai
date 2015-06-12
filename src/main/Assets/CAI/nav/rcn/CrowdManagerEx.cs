@@ -84,7 +84,7 @@ namespace org.critterai.nav.rcn
          * of doing it.
          */
         [DllImport(InteropUtil.PLATFORM_DLL)]
-        public static extern IntPtr dtcGetFilter(IntPtr crowd);
+        public static extern IntPtr dtcGetFilter(IntPtr crowd, int filter);
 
 
         [DllImport(InteropUtil.PLATFORM_DLL)]

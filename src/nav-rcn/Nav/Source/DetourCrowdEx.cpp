@@ -130,17 +130,10 @@ extern "C"
     {
 		return crowd->requestMoveTarget(idx, pos.polyRef, &pos.point[0]);
     }
-
-	EXPORT_API bool dtcAdjustMoveTarget(dtCrowd* crowd
-        , const int idx
-        , rcnNavmeshPoint pos)
-    {
-		return crowd->adjustMoveTarget(idx, pos.polyRef, &pos.point[0]);
-    }
 	
-	EXPORT_API const dtQueryFilter* dtcGetFilter(dtCrowd* crowd)
+	EXPORT_API const dtQueryFilter* dtcGetFilter(dtCrowd* crowd, int filter)
     {
-        return crowd->getFilter();
+        return crowd->getFilter(filter);
     }
 
 	EXPORT_API void dtcGetQueryExtents(dtCrowd* crowd, float* extents)

@@ -180,7 +180,7 @@ namespace org.critterai.nav
             mAgents = new CrowdAgent[maxAgents];
             agentStates = new CrowdAgentCoreState[maxAgents];
 
-            IntPtr ptr = CrowdManagerEx.dtcGetFilter(root);
+            IntPtr ptr = CrowdManagerEx.dtcGetFilter(root,0);
             mFilter = new NavmeshQueryFilter(ptr, AllocType.ExternallyManaged);
 
             ptr = CrowdManagerEx.dtcGetGrid(root);
