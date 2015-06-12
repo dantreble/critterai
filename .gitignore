@@ -238,3 +238,9 @@ FakesAssemblies/
 ###############
 src/main/Library/*
 src/main/Temp/*
+src/main/Assets/Plugins/**/*.exp
+src/main/Assets/Plugins/**/*.exp.meta
+src/main/Assets/Plugins/**/*.pdb
+src/main/Assets/Plugins/**/*.pdb.meta
+src/main/Assets/Plugins/**/*.lib
+src/main/Assets/Plugins/**/*.lib.meta
